@@ -1,0 +1,13 @@
+[ws]
+54.196.239.48
+[db]
+54.242.38.182
+[nv:children]
+ws
+db
+[ws:vars]
+ansible_ssh_private_key_file=~/ansible-key.pem
+ansible_user= admin
+[db:vars]
+ansible_ssh_private_key_file=~/ansible-key.pem
+ansible_user= ubuntu
